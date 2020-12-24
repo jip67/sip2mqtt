@@ -3,6 +3,8 @@ A SIP monitoring script that publishes incoming calls with CallerID to an MQTT c
 
 see also [pjsip-docker](https://github.com/MartyTremblay/pjsip-docker)
 
+I forked this repistory because I the original programm did't work for me. I tried to connect it to my 3CX pbx, but the extension didn't register. After a modification of sip2mqtt.py it did. 
+
 ## usage
 
 Allows the monitoring of SIP connections and publishes the CallerID payload to an MQTT channel. The script requires the following parametters:
